@@ -6,7 +6,7 @@ Supongamos que tenemos el documento final, ya corregido y editado y listo para e
 
 [ ] ¿Están los estilos asignados consistentemente?
 
-esto supone:
+Esto supone:
 - asignar encabezados para estructurar el documento 
   - heading 1 para el título, 
   - heading 2 para los capítulos, 
@@ -18,7 +18,8 @@ esto supone:
   - no debería haber fuentes distintas en el texto
   - no deberían haber espacios en blanco (todo el espaciado del documento debería estar determinado en los estilos de indesign y en el css para los formatos web y epub)
 
-La idea es eliminar al máximo todo lo que pueda ocasionar ruido innecesario. Word es un buen procesador de texto, pero genera una cantidad sorprenente de código inutil, destinado principalmente a establecer como debe el texto a mostrase en una página impresa. pero, dado que en esta fase nuestro target es crear un documento que esté orientado al mismo tiempo a pantallas y a impresión, toda esa información debería ser establecida en las plantillas que diseñemos para generar los distintos formatos de salida. 
+La idea es eliminar al máximo todo lo que pueda ocasionar ruido innecesario. Word es un buen procesador de texto, pero genera una cantidad sorprenente de código inutil, destinado principalmente a establecer como debe el texto a mostrase en una página impresa. Pero, dado que en esta fase nuestro target es crear un documento que esté orientado al mismo tiempo a pantallas y a impresión, toda esa información debería ser establecida en las plantillas que diseñemos para generar los distintos formatos de salida. 
+esta es una nueva edición
 
 ## 
 
