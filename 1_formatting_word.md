@@ -1,6 +1,10 @@
 # Modulo uno: preparar el archivo word para producción
 
-El propósito de esta propuesta de flujo de trabajo es automatizar al máximo o lo que es equivalente, dejar que el software haga el trabajo por nosotros. Con esto en mente, nuestra tarea es ponerselo fácil y minimizar al máximo las posibilidades de error.
+## Preliminares
+
+Esto es un experimento. Parto de lo que me han enseñado los años que llevo produciendo libros y de los problemas que me he encontrado. Y de las ideas que he tenido para solucionarlos y de cómo he pensado que se podían integrar estas soluciones en un flujo de trabajo que me haga la vida más fácil (y tal vez, pueda hacerle la vida más facil a otras personas en mi situación). Naturalmente, hay muchas cosas aquí que dependen únicamente de mi enfoque, que en general se puede llamar experimental: la edición es para mi una sala de juegos donde tiene lugar un aprendizaje continuo y donde nos vamos encontrando en cada pantalla una serie de objetos mágicos que pueden ayudarnos... si conseguimos averiguar para que sirven, que propiedades tienen, cómo funcionan.
+
+Producir un libro supone un montón de tareas, que uno integra dentro de lo que muy amablemente se puede denominar un flujo de trabajo. esas tareas dependen de lo que nos exige el libro en el que estamos trabajando, pero también de las herramientas que utilizamos y de cómo se integran estan. también, y es algo que no es trivial, dependen de nuestro objetivo: ¿queremos únicamente publicar un libro impreso? ¿Queremos que ese libro, además,se pueda leer en uno de los cientos de dispositivos digitales qu existen? ¿Queremos, tal vez, utilizar ese libro para producir contenido para la web?. El propósito de esta propuesta de flujo de trabajo es automatizar al máximo o lo que es equivalente, dejar que el software haga el trabajo por nosotros. Con esto en mente, nuestra tarea es ponerselo fácil y minimizar al máximo las posibilidades de error.
 
 ## Caso 1
 
@@ -29,13 +33,12 @@ Si utilizaramos unicamente una misma versión de word, todo esto sería en gener
 
 [ ] ¿Están los estilos asignados consistentemente?
 
-
 - Limpiar el documento
   - fuera de los estilos estrictamente necesarios, no debería haber otros
   - no debería haber fuentes distintas en el texto
   - no deberían haber espacios en blanco (todo el espaciado del documento debería estar determinado en los estilos de indesign y en el css para los formatos web y epub)
 
-La idea es eliminar al máximo todo lo que pueda ocasionar ruido innecesario. Word es un buen procesador de texto, pero [genera una cantidad sorprendente de código inutil](https://slate.com/technology/2012/04/microsoft-word-is-cumbersome-inefficient-and-obsolete-its-time-for-it-to-die.html)
+La idea es eliminar al máximo todo lo que pueda ocasiongit branche 
 , destinado principalmente a establecer como debe el texto a mostrase en una página impresa. Pero, dado que en esta fase nuestro target es crear un documento que esté orientado al mismo tiempo a pantallas y a impresión, toda esa información debería ser establecida en las plantillas que diseñemos para generar los distintos formatos de salida. 
 
 ## pasos
