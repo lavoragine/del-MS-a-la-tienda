@@ -4,7 +4,7 @@
 
 ## Al principio fue el manuscrito
 
-Todo comienza en el manuscrito. Lo más común es que el archivo que pasemos a producción, una vez este haya sido editado y corregido, sea un archivo formateado en MS Word. Esto supone una serie de problemas, que serán discutidos [aqui](wordVersusMarkdown.md)¿Qué condiciones debe cumplir este archivo para entrar en nuestro workflow?
+Todo comienza en el manuscrito. Lo más común es que el archivo que pasemos a producción, una vez este haya sido editado y corregido, sea un archivo formateado en MS Word. Esto supone una serie de problemas, que serán discutidos [aqui](/wordVersusMarkdown.md)¿Qué condiciones debe cumplir este archivo para entrar en nuestro workflow?
 
 ### Estar estructurado semánticamente
 
