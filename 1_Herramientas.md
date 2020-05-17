@@ -22,7 +22,7 @@ Este es un párrafo y en este párrafo hay una cita textual: *nunca digas nunca 
 Mucho más fácil, ¿verdad? Además tiene varias ventajas:
 
 1. Estamos etiquetando texto de tal manera que lo pueda entender un software, pero manteniendo su legibilidad para cualquier humano que decida echarle un vistazo.
-2. Se puede transformar en otras sintaxis (otros lenguajes de etiquetado), mas complicadas, de forma automática (en efecto, markdown fue ideado para escribir HTML de manera rápida)
+2. Se puede transformar en otras sintaxis (otros lenguajes de etiquetado), más complicadas, de forma automática (en efecto, markdown fue ideado para escribir HTML de manera rápida)
 3. Es [extremadamente ligero](/wordVersusMarkdown.md)
 
 De manera que el lenguaje (o la sintaxis) de etiquetado que utilizaremos en primer término será markdown, y en fases más avanzadas: HTML y CSS (cuando hablemos de un archivo EPUB), y Liquid y JavaScript (cuando creemos nuestra primera página web con la información de un libro).
@@ -38,7 +38,7 @@ En cuanto a las herramientas, las vamos a escoger siguiendo los siguientes crite
 
 ### Editores de texto
 
-Para escribir Markdown y todos los lenguajes con los que trabajaremos, necesitaremos un editor de texto. Hay muchos, pero para el caso que nos ocupa, vamos a considerar flujos de trabajo con Atom y Visual Studio Code, los dos multiplataforma y gratuitos. También necesitaremos usar el terminal (en Mac y Linux) o La Power Shell(en Windows) para determinadas acciones. veremos en articulos separados cómo configurarlos.
+Para escribir Markdown y todos los lenguajes con los que trabajaremos, necesitaremos un editor de texto. Hay muchos, pero para el caso que nos ocupa, vamos a considerar flujos de trabajo con Atom y Visual Studio Code, los dos multiplataforma y gratuitos. También necesitaremos usar el terminal (en Mac y Linux) o La Power Shell(en Windows) para determinadas acciones. Veremos en artículos separados cómo configurarlos.
 
 
 ### Para manipular el texto
@@ -47,8 +47,8 @@ Una sola herramienta nos servirá para convertir nuestro texto formateado como m
 
 ### Para colaborar y hacer control de versiones
 
-Usaremos Git y GitHub, el uno, un software de control de versiones, la segunda, una plataforma organizada por repositorios y construida para colaborar en proyectos utilizando Git como herramienta de control de versionjes y colaboración. Github nos servirá también para construir y alojar nuestra página web.
+Usaremos Git y GitHub, el uno, un software de control de versiones, la segunda, una plataforma organizada por repositorios y construida para colaborar en proyectos utilizando Git como herramienta de control de versiones y colaboración. Github nos servirá también para construir y alojar nuestra página web.
 
 ### Para construir nuestra web (y nuestra tienda electrónica)
 
-usaremos jeckyll, un software que permite crear sitios webs estáticos en cuestión de segundos, y Liquid, el lenguaje en que están escritas las plantillas de Jeckyll y de Shopify (que es el software que utilizaremos para construir nuestra plataforma de ecommerce).
+Usaremos jeckyll, un software que permite crear sitios webs estáticos en cuestión de segundos, y Liquid, el lenguaje en que están escritas las plantillas de Jeckyll y de Shopify (que es el software que utilizaremos para construir nuestra plataforma de ecommerce).
