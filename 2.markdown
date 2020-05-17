@@ -1,11 +1,1 @@
 # markdown
-
-Hay unas cuantas razones (que discutiremos [aquí](/wordVersusMarkdown.md)) para escoger markdown como nuestra herramienta básica. De momento, baste decir que es la que nos permitirá una mayor eficiencia si nuestro propósito es automatizar al máximo nuestro flujo de trabajo.
-
-¿Qué necesitamos para escribir markdown? Un editor de texto (no un procesador de texto: nos sirve el Block de Notas, que es un editor de texto plano, pero no MS Word ni Libre Office). Los hay de todos los tipos y sabores, dedicados o no, con interfaces más o menos amables. De los editores dedicados, para mi gusto, los mejores son: Mou (disponible solo para Mac) y Typora (multiplataforma). Tienen una interfaz WYSIWYG, de manera que prácticamente todo el formateo se puede realizar con atajos de teclado y botones. Pero, para nuestra aventura, os propondré trabajar con un editor de texto como el que se utiliza para escribir código (con marcado de sintaxis). Estas herramientas son bastante más sofisticadas y aunque la curva de aprendizaje es un poco más elevada (y habituarse cuesta un poco más: su aspecto es como las pantallas de los hackers de serie de televisión) nos ofrecen herramientas que los transforman en artefactos poderosísimos.
-
-De los editores multiplataforma, tal vez los más fáciles de utilizar son Visual Studio Code, de Microsoft, y Atom, que fue escrito y es mantenido por la comunidad de GitHub. Aquí vamos a utilizar éste, que es el más fácil de configurar.
-
-#3 Configurar el editor
-
-Podemos descargar Atom de su [repositorio en GitHub](https://atom.io/) para cualquiera sea la arquitectura de nuestro equipo (hay binarios disponibles para Windows, OSX y Linux)

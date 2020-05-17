@@ -4,7 +4,7 @@
 
 ## Al principio fue el manuscrito
 
-Todo comienza en el manuscrito. Lo más común es que el archivo que pasemos a producción, una vez este haya sido editado y corregido, sea un archivo formateado en MS Word. Esto supone una serie de problemas, que serán discutidos [aqui](/wordVersusMarkdown.md)¿Qué condiciones debe cumplir este archivo para entrar en nuestro workflow?
+Todo comienza en el manuscrito. Lo más común es que el archivo que pasemos a producción, una vez este haya sido editado y corregido, sea un archivo formateado en MS Word. Esto supone una serie de problemas, que serán discutidos [aquí](/wordVersusMarkdown.md)¿Qué condiciones debe cumplir este archivo para entrar en nuestro workflow?
 
 ### Estar estructurado semánticamente
 
@@ -17,7 +17,7 @@ En esta fase no nos debe importar en lo más mínimo el diseño, aquí se trata 
 - Un estilo para las notas al pie de página
 - Revisar que el formateo local (itálicas y negritas) esté aplicado consistentemente
 
-  Todo esto nos permitirá mapear correctamente los estilos generados al momento de importarlo en InDesign y en epub. En InDesign, el mapeo (pero lo veremos a continuación) se realizará a partir de una plantilla ya diseñada. Y en EPUB, a partir de una hoja de estilos.
+Todo esto nos permitirá mapear correctamente los estilos generados al momento de importarlo en InDesign y en epub. En InDesign, el mapeo (pero lo veremos a continuación) se realizará a partir de una plantilla ya diseñada. Y en EPUB, a partir de una hoja de estilos.
 
 En una novela cualquiera, pongamos por caso, Moby Dick, el outline sería algo así como: (pantallazo)
 
