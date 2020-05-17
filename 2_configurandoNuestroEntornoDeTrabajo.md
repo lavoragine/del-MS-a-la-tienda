@@ -14,7 +14,6 @@ Es nuestra herramienta básica. El único criterio para decantarnos por uno u ot
 
 Es un editor de texto
 
-
 ## Pandoc
 
 ## Git & GitHub
