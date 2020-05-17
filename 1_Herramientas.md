@@ -52,4 +52,6 @@ Usaremos Git y GitHub, el uno, un software de control de versiones, la segunda, 
 
 ### Para construir nuestra web (y nuestra tienda electrónica)
 
-Usaremos jeckyll, un software que permite crear sitios webs estáticos en cuestión de segundos, y Liquid, el lenguaje en que están escritas las plantillas de Jeckyll y de Shopify (que es el software que utilizaremos para construir nuestra plataforma de ecommerce).
+Usaremos Jeckyll, un software que permite crear sitios webs estáticos en cuestión de segundos, y Liquid, el lenguaje en que están escritas las plantillas de Jeckyll y de Shopify (que es el software que utilizaremos para construir nuestra plataforma de ecommerce).
+
+### Una nota

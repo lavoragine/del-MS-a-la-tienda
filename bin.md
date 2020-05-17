@@ -15,4 +15,3 @@ De los editores multiplataforma, los más populares y fáciles de utilizar, adem
 
 #3 Configurar el editor
 
-Podemos descargar Atom de su [repositorio en GitHub](https://atom.io/) para cualquiera sea la arquitectura de nuestro equipo (hay binarios disponibles para Windows, OSX y Linux). Una vez instalado

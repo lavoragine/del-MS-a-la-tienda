@@ -12,7 +12,7 @@ Es nuestra herramienta básica. El único criterio para decantarnos por uno u ot
 
 ### Atom
 
-Es un editor de texto
+Podemos descargar Atom de su [repositorio en GitHub](https://atom.io/) para cualquiera sea la arquitectura de nuestro equipo (hay binarios disponibles para Windows, OSX y Linux). Para este tutorial, lo haremos en Windows, pero en Mac o Linux es casi exactamente igual (como mucho, pueden cambiar ligeramente las ubicaciones de ciertas funciones en los menús) Una vez instalado, podemos abrirlo y nos encontraremos con una pantalla de bienvenida
 
 ## Pandoc
 
