@@ -30,10 +30,11 @@ De manera que el lenguaje (o la sintaxis) de etiquetado que utilizaremos en prim
 ## Herramientas
 
 En cuanto a las herramientas, las vamos a escoger siguiendo los siguientes criterios:
-- que sean multiplataforma (o sea, que tengan versiones disponibles para cualquier sistema operativo)
-- que sean fácilmente configurables
-- que se integren bien entre ellas
-- la navaja de Ockham: que sean la solución más simple para los problemas que tenemos que resolver
+
+- Multiplataforma (o sea, que tengan versiones disponibles para cualquier sistema operativo)
+- Que sean fácilmente configurables
+- Que se integren bien entre ellas
+- Navaja de Ockham: que sean la solución más simple para los problemas que tenemos que resolver
 - Y que preferiblemente sean Open Source
 
 ### Editores de texto
