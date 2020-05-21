@@ -14,7 +14,8 @@ Las preferencias de Atom están en el menú ``Packages > Settings view > open`` 
 ### 2. Instalar extensiones necesarias:
 Para los efectos de este tutorial vamos a instalar una batería de extensiones:
 - Language Tool (corrector ortográfico, pero que a diferencia de un corre
--   ctor ortográfico normal, muestra errores gramaticales, a la manera del corrector de MS Word. En mi opinión, es bastante mejor.) Una vez instalado y configurado (mirar la imagen) tenemos tres opciones en el menú contextual (Click derecho sobre la pantalla del editor): ``check`` (para mostrar posibles errores), ``show suggestions`` (requiere seleccionar la palabra y marcar la opción), y ``clear``(para limpiar la pantalla de sugerencias.)
+-   ctor ortográfico normal, muestra errores gramaticales, a la manera del cor
+-     rector de MS Word. En mi opinión, es bastante mejor.) Una vez instalado y configurado (mirar la imagen) tenemos tres opciones en el menú contextual (Click derecho sobre la pantalla del editor): ``check`` (para mostrar posibles errores), ``show suggestions`` (requiere seleccionar la palabra y marcar la opción), y ``clear``(para limpiar la pantalla de sugerencias.)
 
 ![languageTool configuración](images/2020/05/languageToolConfigLang.png)
 
