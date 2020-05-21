@@ -29,11 +29,18 @@ Para los efectos de este tutorial vamos a instalar una batería de extensiones:
 las extensiones se instalan desde ``Install`` y una vez instalada, se pueden configurar yendo a ``packages``.
 
 ## Command palette y menús
-Hay numerosas maneras de llamar una función de Atom. Desde los menús, por ejemplo. O desde el 'package' correspondiente. Una forma rápida de acceder a las funciones es Command palette (``Ctrl + Shift + p``). la combinación de etclas abre una ventana, donde podemos buscar y selccionar (o directamente escribir) el nombre de la función que necesitamos llamar.
+Hay numerosas maneras de llamar una función de Atom. Desde los menús, por ejemplo. O desde el 'package' correspondiente. Una forma rápida de acceder a las funciones es Command palette (``Ctrl + Shift + p``). la combinación de teclas abre una ventana, donde podemos buscar y seleccionar (o directamente escribir) el nombre de la función que necesitamos llamar.
 
 ![commandPalette](images/2020/05/command.png)
 
 ## Crear un proyecto en atom
+Para crear el directorio de un proyecto en Atom:
+
+`file > add project folder`. Seleccionamos la carpeta donde vive nuestro proyecto y ya está: el arbol de archivos se desplegará en el módulo de la derecha (También podemos arrastrar un directorio directamente sobre el panel `Project`).
+
+![project folder](images/2020/05/projectFolder.png)
+
 ## Sincronizar el repositorio local con el repositorio remoto en Github
+Una vez que tenemos nuestro proyecto en Atom, iniciaremos un repositorio Git para llevar el control de versiones (hablaremos más acerca de qué es Git más adelante).
 ## Search & replace
 ## Algunas funciones avanzadas
