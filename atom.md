@@ -2,10 +2,13 @@
 
 ## Instalar atom
 Podemos descargar Atom de su [repositorio en GitHub](https://atom.io/) para cualquiera sea la arquitectura de nuestro equipo (hay binarios disponibles para Windows, OSX y Linux).
+
 ## Overview: configurar el editor
 Cuando abrimos Atom por primera vez, tenemos tres pantallas: la pantalla de bienvenida (que podemos cerrar y antes, marcar la casilla: no volver a mostrar), una invitación a colaborar (que también podemos cerrar) y el menú principal. Para trabajar con un entorno más limpio, yo prefiero cerrar todo y quedarme solamente con el archivo en blanco.
+
 ## Instalar paquetes básicos para editar y trabajar con  Markdown y Git
 Atom es configurable hasta el hartazgo. Dependiendo de qué uso le vayamos a dar, podemos instalar una cantidad de extensiones (packages, en el lenguaje de Atom), que nos harán la vida muchísimo más fácil. Pero para comenzar, antes conviene establecer algunas elecciones básicas.
+
 ### 1. Configurar el editor:
 Las preferencias de Atom están en el menú ``Packages > Settings view > open`` donde podemos acceder a una buena cantidad de opciones. A la izquierda tenemos un menú, donde se despliegan todas las opciones de configuración (Editor, core, packages, etc...). De momento, y para mayor comodidad a la hora de trabajar con texto, vamos a limitar el contenedor de texto.  Para esto iremos a ``editor`` en menú de la izquierda, y marcaremos en la casilla ``soft wrap``. La longitud de la casilla se puede regular en ``prefered line length`` (ver imagen)
 
@@ -42,6 +45,6 @@ Para crear el directorio de un proyecto en Atom:
 ![project folder](images/2020/05/projectFolder.png)
 
 ## Sincronizar el repositorio local con el repositorio remoto en Github
-Una vez que tenemos nuestro proyecto en Atom, iniciaremos un repositorio Git para llevar el control de versiones (hablaremos más acerca de qué es Git más adelante).
+Una vez que tenemos nuestro proyecto en Atom, iniciaremos un repositorio Git para llevar el control de versiones (hablaremos más acerca de qué es Git más adelante). Para esto, el método más fácil es el siguiente (veremos más manera de hacer lo mismo en el capítulo correspondiente)
 ## Search & replace
 ## Algunas funciones avanzadas
