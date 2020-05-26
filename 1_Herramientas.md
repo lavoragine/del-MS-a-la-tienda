@@ -39,7 +39,7 @@ En cuanto a las herramientas, las vamos a escoger siguiendo los siguientes crite
 
 ### Editores de texto
 
-Para escribir Markdown, en especial, y todos los lenguajes con los que trabajaremos, necesitaremos un editor de texto. Hay muchos, pero para el caso que nos ocupa, vamos a considerar flujos de trabajo con Atom y Visual Studio Code, ambos multiplataforma y gratuitos. También necesitaremos usar el terminal (en Mac y Linux) o la Power Shell (en Windows) para determinadas acciones. Veremos en artículos separados cómo configurarlos.
+Para escribir Markdown, en especial, y todos los lenguajes de etiquetado o programación con los que trabajaremos, necesitaremos un editor de texto. Hay muchos, pero para el caso que nos ocupa, vamos a considerar flujos de trabajo con Atom y Visual Studio Code, ambos multiplataforma y gratuitos. También necesitaremos usar el terminal (en Mac y Linux) o la Power Shell (en Windows) para determinadas acciones. Veremos en artículos separados cómo configurarlos.
 
 
 ### Para manipular el texto

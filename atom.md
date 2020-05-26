@@ -10,15 +10,13 @@ Cuando abrimos Atom por primera vez, tenemos tres pantallas: la pantalla de bien
 Atom es configurable hasta el hartazgo. Dependiendo de qué uso le vayamos a dar, podemos instalar una cantidad de extensiones (packages, en el lenguaje de Atom), que nos harán la vida muchísimo más fácil. Pero para comenzar, antes conviene establecer algunas elecciones básicas.
 
 ### 1. Configurar el editor:
-Las preferencias de Atom están en el menú ``Packages > Settings view > open`` donde podemos acceder a una buena cantidad de opciones. A la izquierda tenemos un menú, donde se despliegan todas las opciones de configuración (Editor, core, packages, etc...). De momento, y para mayor comodidad a la hora de trabajar con texto, vamos a limitar el contenedor de texto.  Para esto iremos a ``editor`` en menú de la izquierda, y marcaremos en la casilla ``soft wrap``. La longitud de la casilla se puede regular en ``prefered line length`` (ver imagen)
+Las preferencias de Atom están en el menú ``Packages > Settings view > open`` donde podemos acceder a una buena cantidad de opciones. A la izquierda tenemos un menú, donde se despliegan todas las opciones de configuración (Editor, core, packages, etc...). De momento, y para mayor comodidad a la hora de trabajar con texto, vamos a limitar el contenedor de texto.  Para esto iremos a ``editor`` en menú de la izquierda, y marcaremos en la casilla ``soft wrap on prefered line length``. La longitud de la casilla se puede regular en ``prefered line length`` (ver imagen)
 
 ![configurar editor](images/2020/05/configurar-editor.png)
 
 ### 2. Instalar extensiones necesarias:
 Para los efectos de este tutorial vamos a instalar una batería de extensiones:
-- Language Tool (corrector ortográfico, pero que a diferencia de un corre
--   ctor ortográfico normal, muestra errores gramaticales, a la manera del cor
--     rector de MS Word. En mi opinión, es bastante mejor.) Una vez instalado y configurado (mirar la imagen) tenemos tres opciones en el menú contextual (Click derecho sobre la pantalla del editor): ``check`` (para mostrar posibles errores), ``show suggestions`` (requiere seleccionar la palabra y marcar la opción), y ``clear``(para limpiar la pantalla de sugerencias.)
+- LanguageTool (corrector ortográfico, pero que a diferencia de un corrector ortográfico normal, muestra errores gramaticales, a la manera del corrector de MS Word. En mi opinión, es bastante mejor.) Una vez instalado y configurado (mirar la imagen) tenemos tres opciones en el menú contextual (Click derecho sobre la pantalla del editor): ``check`` (para mostrar posibles errores), ``show suggestions`` (requiere seleccionar la palabra y marcar la opción), y ``clear``(para limpiar la pantalla de sugerencias.)
 
 ![languageTool configuración](images/2020/05/languageToolConfigLang.png)
 
@@ -29,6 +27,10 @@ Para los efectos de este tutorial vamos a instalar una batería de extensiones:
 ![outliner](images/2020/05/outline.PNG)
 
 - markdown Writer (incluye atajos de teclado y un menú para hacer más fácil la sintaxis en markdown, pero también tiene funciones que necesitaremos para crear páginas web en generadores de webs estáticas. Para una comprensión más cabal de esto, ver más adelante... ya llegaremos a eso.)
+
+- spell check viene instalado por defecto, pero será necesario cambiar la configuración de lenguaje (en Packages > Settings view > manage packages > Spell-check > Settings)
+
+![spell-checker](images/2020/05/cambiarlangSettingsAtom.png)
 
 las extensiones se instalan desde ``Install`` y una vez instalada, se pueden configurar yendo a ``packages``.
 
