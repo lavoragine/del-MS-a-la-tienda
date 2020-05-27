@@ -12,17 +12,21 @@ Es nuestra herramienta básica. El único criterio para decantarnos por uno u ot
 
 ### Atom
 
-Podemos descargar Atom de su [repositorio en GitHub](https://atom.io/) para cualquiera sea la arquitectura de nuestro equipo (hay binarios disponibles para Windows, OSX y Linux). Para este tutorial, lo haremos en Windows, pero en Mac o Linux es casi exactamente igual (como mucho, pueden cambiar ligeramente las ubicaciones de ciertas funciones en los menús) Una vez instalado, hay que configurarlo. Una de las cosas buenas de los editores de texto es que son configurables hasta el infinito con extensiones (en el caso de atom, les llaman "packages".). Para trabajar con texto, pandoc y github, que es lo que haremos nosotros, lo ideal es tener instaladas las siguientes extensiones:
+Podemos descargar Atom de su [repositorio en GitHub](https://atom.io/) para cualquiera sea la arquitectura de nuestro equipo (hay binarios disponibles para Windows, OSX y Linux). Para este tutorial, lo haremos en Windows, pero en Mac o Linux es casi exactamente igual (como mucho, pueden cambiar ligeramente las ubicaciones de ciertas funciones en los menús) Una vez instalado, hay que configurarlo. Una de las cosas buenas de los editores de texto es que son configurables hasta el infinito con extensiones (en el caso de Atom, les llaman "packages"). Para trabajar con texto, pandoc y github, que es lo que haremos nosotros, lo ideal es tener instaladas las siguientes extensiones:
 
 - language tool
 - linter markDown
-- Platformio Ide Terminal
 - Document outline
 - markdown Writer
+- spell check viene instalado por defecto, pero será necesario cambiar la configuración de lenguaje (en Packages > Settings view > manage packages > Spell-check > Settings)
 
 
 ![helper](images/2020/05/helper.png)
 
 ## Pandoc
+
+Pandoc es una aplicación de línea de commandos (CLI, por *Command Line Aplication*) creada por
+
+
 
 ## Git & GitHub
