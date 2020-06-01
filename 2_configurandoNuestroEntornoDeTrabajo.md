@@ -4,11 +4,11 @@
 
 La línea de comando es el software que te permite interactuar directamente con tu sistema operativo. En Mac o Linux, la línea de comandos se llama Terminal. En Windows, se llama Consola o PowerShell. De cualquier manera, es el medio por el cual puedes escribir instrucciones en tu computadora. No necesitas instalar nada: ya están en tu ordenador.
 
-Independientemente de si estás en Mac o en Windows, introducirás comandos en la línea de comandos que el ordenador obedecerá. El uso de la línea de comandos suele ser mucho más rápido y fiable que el uso de cualquier interfaz gráfica de usuario (GUI). La mayoría de los programas no utilizan la línea de comando, pero hay algunos que si, como Pandoc. De manera que un mínimo de familiaridad con esta herramienta es deseable.
+Independientemente de si estás en Mac o en Windows, introducirás comandos en la línea de comandos que el ordenador obedecerá. El uso de la línea de comandos suele ser mucho más rápido y fiable que el uso de cualquier interfaz gráfica de usuario (GUI). La mayoría de los programas no utilizan la línea de comando, pero hay algunos que si, como Pandoc, que utilizaremos. De manera que un mínimo de familiaridad con esta herramienta es deseable.
 
 ## Editor de Texto
 
-Es nuestra herramienta básica. El único criterio para decantarnos por uno u otro, es nuestra comodidad. Los que yo utilizo son Atom y Visual Studio. A continuación veremos cómo instalar y configurar ambos.
+Es nuestra herramienta básica. El único criterio para decantarnos por uno u otro, es nuestra comodidad. El que vamos a utilizar en este tutorial es Atom, por que ofrece una estupenda integración a Github que nos facilitará mucho el trabajo.
 
 ### Atom
 
@@ -20,8 +20,9 @@ Podemos descargar Atom de su [repositorio en GitHub](https://atom.io/) para cual
 - markdown Writer
 - spell check viene instalado por defecto, pero será necesario cambiar la configuración de lenguaje (en Packages > Settings view > manage packages > Spell-check > Settings)
 
-
 ![helper](images/2020/05/helper.png)
+
+En [este artículo](atom.md) hallarás una explicación detallada de cómo configurar el editor.
 
 ## Pandoc
 

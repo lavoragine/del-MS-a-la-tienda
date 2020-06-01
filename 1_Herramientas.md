@@ -1,6 +1,6 @@
 # Sobre los lenguajes y herramientas que utilizaremos
 
-Cualquier _workflow_ editorial es en esencia un conjunto de tareas sincronizadas, realizadas cada una con herramientas específicas, donde se manipula texto, información sobre ese texto e información gráfica en orden a  producir un libro. Para manipular ese texto, un ordenador (o el software instalado en ese ordenador) necesita que el texto esté etiquetado  semánticamente. Esto suena complejo, pero solo significa que si tenemos un documento, ese documento debe también incluir información acerca de cual es el título, cual es el autor, que función tienen los diversos párrafos (¿acaso son cuerpo de texto, epígrafes, citas?). Para describir esa información, existen lenguajes de etiquetado.
+Cualquier _workflow_ editorial es en esencia un conjunto de tareas sincronizadas, realizadas cada una con herramientas específicas, donde se manipula texto, información sobre ese texto e información gráfica, en orden a  producir un libro. Para manipular ese texto, un ordenador (o el software instalado en ese ordenador) necesita que el texto esté etiquetado  semánticamente. Esto suena complejo, pero solo significa que si tenemos un documento, ese documento debe también incluir información acerca de cual es el título, cual es el autor, que función tienen los diversos párrafos (¿acaso son cuerpo de texto, epígrafes, citas?). Para describir esa información, existen lenguajes de etiquetado.
 
 ## lenguajes
 

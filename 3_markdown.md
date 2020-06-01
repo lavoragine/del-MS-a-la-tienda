@@ -102,14 +102,18 @@ Una oración que requiere una cita.[^1]
 [^1]: ¡Ésta es mi primer nota a pie de página! Y un [enlace](https://www.eff.org/).
 ```
 
-Y como veremos en breve, este archivo de texto plano se puede representar como un muy buen PDF.
+Muchos textos pueden representarse con este formato básico, incluso novelas enteras.
+
+Y aunque tal vez no resulte todavía muy estimulante en términos gráficos, hay que considerar que si combinamos esto con una hoja de estilos (css) para nuestra versión en epub o con un aplantilla de estilos en InDesign, podemos tener un libro entero, en dos o tres formatos, en una tarde (y con tiempo suficiente para hacer el vermut)
 
 Si quieres tener una idea de cómo serán interpretado en un fomato HTML este tipo de marcado, prueba este sitio de prueba en línea y juega con varios tipos de sintaxis. Recuerda que ciertos elementos del Pandoc-flavored markdown (como el bloque de título o las notas al pie) no funcionan en esta versión web ya que solamente acepta lo básico.
 
-En este punto, deberás ocupar algún tiempo explorando algunas de las características de Markdown como las citas de texto (referidas con el símbolo >), los listados que empiezan con * o -, los saltos de línea literales que empiezan con | (útiles para poesía), las tablas y algunas otras funciones señaladas en la página sobre Markdown de Pandoc.
+En este punto, deberás ocupar algún tiempo explorando algunas de las características de Markdown como las citas de texto (referidas con el símbolo ``>``), los listados que empiezan con ``*`` o ``-``, los saltos de línea literales que empiezan con ``|`` (útiles para poesía), las tablas y algunas otras funciones señaladas en la página sobre Markdown de Pandoc.
 
 Presta particular atención a los espacios en blanco y al flujo de los párrafos. La documentación lo explica sucintamente cuando define un párrafo como “una o más líneas de texto seguidas por una o más líneas en blanco.” Considera que “las nuevas líneas son tratadas como espacios” y que “si necesitas un salto de línea elocuente, utiliza dos o más espacios en blanco al final de la línea.” La mejor manera de entender lo que significa es experimentar libremente. Utiliza el modo de vista previa de tu editor o solamente ejecuta Pandoc para ver los resultados de tus experimentos.
 
-Pero sobre todo, evita la necesidad de formatear. Recuerda que estás identificando unidades semánticas: secciones, subsecciones, énfasis, notas al pie y figuras. Incluso *cursivas*y **negritas** en Markdown no son en realidad marcas de formato, sino que indican un nivel diferente de énfasis. La aplicación del formato sucederá después, una vez que conozcas el momento del proceso en el que hay que hacerlo y los requerimientos de la publicación.
+Pero sobre todo, evita la necesidad de formatear. Recuerda que estás identificando unidades semánticas: secciones, subsecciones, énfasis, notas al pie y figuras. Incluso *cursivas* y **negritas** en Markdown no son en realidad marcas de formato, sino que indican un nivel diferente de énfasis. La aplicación del formato sucederá después, una vez que conozcas el momento del proceso en el que hay que hacerlo y los requerimientos de la publicación.
+
+
 
 Existen programas que te permiten obtener una vista previa en vivo de la salida de markdown al tiempo que editas tu archivo de texto plano y que detallaremos más adelante en la sección de Recursos útiles. Algunos de ellos soportan notas a pie, figuras, incluso bibliografías. Sin embargo, para sacar provecho al máximo de Pandoc, te recomendamos que te quedes con lo más sencillo: archivos de texto plano almacenados localmente en tu computadora.
