@@ -1,6 +1,6 @@
 # Sobre los lenguajes y herramientas que utilizaremos
 
-Cualquier _workflow_ editorial es en esencia un conjunto de tareas sincronizadas, realizadas cada una con herramientas específicas, donde se manipula texto, información sobre ese texto e información gráfica, en orden a  producir un libro. Para manipular ese texto, un ordenador (o el software instalado en ese ordenador) necesita que el texto esté etiquetado  semánticamente. Esto suena complejo, pero solo significa que si tenemos un documento, ese documento debe también incluir información acerca de cual es el título, cual es el autor, que función tienen los diversos párrafos (¿acaso son cuerpo de texto, epígrafes, citas?). Para describir esa información, existen lenguajes de etiquetado.
+Cualquier _workflow_ editorial es un conjunto de tareas sincronizadas, llevadas a cabo con herramientas específicas, donde se manipula texto, información sobre ese texto e información gráfica, en orden a  producir un libro. Para manipular ese texto, un ordenador (o el software instalado en ese ordenador) necesita que el texto esté etiquetado  semánticamente. Esto suena complejo, pero solo significa que si tenemos un documento, ese documento debe también incluir información acerca de cual es el título, cual es el autor, que función tienen los diversos párrafos (¿acaso son cuerpo de texto, epígrafes, citas?). Para describir esa información, existen lenguajes de etiquetado.
 
 ## lenguajes
 
@@ -10,9 +10,9 @@ Esta información la trasladamos al documento en forma de etiquetas y tienen est
 <h1>Este es el título de mi documento</h1>
 <p>Este es un párrafo y en este párrafo hay una cita textual: <q>nunca digas nunca jamás</q>
 ````
-En este extracto, lo que hay es un título (lo que está entre las etiquetas `<h1> y </h1>`, `h1` por `heading 1` o bien: título principal de de primer nivel), un párrafo (lo que está entre las etiquetas `<p> y >/p>`), una cita (lo que está entre las etiquetas `<q>` y `</q>`, donde `q` significa quotation, o sea: cita textual. Y esta información permite que este texto pueda ser interpretado por maquinas (esto es lo que ocurre cuando un navegador despliega en pantalla una página web: toma información de una fuente determinada y la transforma en un documento web siguiendo la estructura que definen sus etiquetas y la información gráfica que viene en su CSS. Esto último lo veremos más adelante. ).
+En este extracto, lo que hay es un título (lo que está entre las etiquetas `<h1> y </h1>`, `h1` por `heading 1` o bien: título de primer nivel), un párrafo (lo que está entre las etiquetas `<p> y >/p>`), una cita (lo que está entre las etiquetas `<q>` y `</q>`, donde `q` significa quotation, o sea: cita textual. Y esta información permite que este texto pueda ser interpretado por maquinas (esto es lo que ocurre cuando un navegador despliega en pantalla una página web: toma información de una fuente determinada y la transforma en un documento web siguiendo la estructura que definen sus etiquetas y la información gráfica que viene en su hoja de estilos (CSS). De esto último hablaremos más adelante.
 
-Pero el HTML es algo engorroso y pese a que hay herramientas extrordinarias que facilitan su escritura, tenemos una posibilidad mejor: trabajar con texto siguiendo la sintaxis markdown, que simplifica mucho el trabajo. De manera que el trozo anterior sería (escrito en markdown) más bien así:
+Pero el HTML (o el XML, que es otro lenguaje de etiqueda, o mejor: un metalenguaje de etiquetado) es algo engorroso y pese a que hay herramientas extraordinarias que facilitan su escritura, tenemos una posibilidad mejor: trabajar con texto siguiendo la sintaxis markdown, que simplifica mucho el trabajo. De manera que el trozo anterior sería (escrito en markdown) más bien así:
 
 ````
 # Este es el título de mi documento
@@ -34,8 +34,8 @@ En cuanto a las herramientas, las vamos a escoger siguiendo los siguientes crite
 - Multiplataforma (o sea, que tengan versiones disponibles para cualquier sistema operativo)
 - Que sean fácilmente configurables
 - Que se integren bien entre ellas
-- Navaja de Ockham: que sean la solución más simple para los problemas que tenemos que resolver
-- Y que preferiblemente sean Open Source
+- Y que cumplan con el principio de la Navaja de Ockham: que sean la solución más simple para los problemas que tenemos que resolver
+- Y, por último, que preferiblemente sean Open Source
 
 ### Editores de texto
 
@@ -44,7 +44,7 @@ Para escribir Markdown, en especial, y todos los lenguajes de etiquetado o progr
 
 ### Para manipular el texto
 
-Una sola herramienta nos servirá para convertir nuestro texto formateado como markdown en HTML (para reutilizarlo en la construcción de nuestro preview para la web), en EPUB (como formato de Ebook para retailers como Kobo o IbookStore o Google Play), para importarlo en InDesign (vía ICML), para convertirlo en Docx (si es que por alguna razón queremos hacer semejante cosa). Esta herramienta se llama Pandoc.
+Una sola herramienta nos servirá para convertir nuestro texto formateado como markdown en HTML (para reutilizarlo en la construcción de nuestro preview para la web), en EPUB (como formato de Ebook para retailers como Kobo o IbookStore o Google Play, o para venderlo desde nuestra propia página web), para importarlo en InDesign (vía ICML), para convertirlo en docx (si es que por alguna razón queremos hacer semejante cosa). Esta herramienta se llama Pandoc.
 
 ### Para colaborar y hacer control de versiones
 
